@@ -1,0 +1,28 @@
+# Основные фреймворки для работы с LLM и агентами
+langchain>=0.1.0
+langchain-community>=0.1.0
+langchain-openai>=0.1.0
+camel-ai>=0.1.0
+pyautogen>=0.2.0
+
+# Для работы с моделями
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Для локальных моделей
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.25.0
+
+# Для веб-интерфейса
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Для работы с документами и поиском
+pypdf>=3.17.0
+chromadb>=0.4.22
+tiktoken>=0.5.1
+
+# Утилиты
+python-dotenv>=1.0.0
+requests>=2.31.0
